@@ -12,5 +12,9 @@
     "privacyPolicyUrl": null,
     "termsOfServiceUrl": null,
     "maxUploadFileSize": null,
-    "contribPlugins": []
+    "gitLabClientId": "$GITLAB_API_CLIENT_ID",
+    "gitLabUrl": "$GITLAB_URL",
+    "contribPlugins": [
+        "/plugins/gitlab-auth/gitlab-auth.json"
+    ]
 }

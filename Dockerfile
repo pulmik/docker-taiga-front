@@ -27,6 +27,7 @@ RUN apk --no-cache add nginx \
 
 WORKDIR /srv/taiga/front/dist
 
+COPY ../taiga-contrib-gitlab-auth/front/dist gitlab-auth
 COPY start.sh /
 COPY nginx.conf /etc/nginx/conf.d/
 COPY config.json /tmp/taiga-conf/
